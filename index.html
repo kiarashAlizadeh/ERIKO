@@ -13,35 +13,43 @@
   </head>
   <body class="box-border">
     <!-- navBar -->
-    <nav class="flex items-center justify-between mx-20">
-      <ul class="flex gap-x-6 items-center align-middle">
+    <nav
+      class="flex items-center justify-between mx-20 border-b-2 border-neutral-400 p-3 mb-3"
+    >
+      <ul class="flex gap-x-6 items-center text-base">
         <li>
           <a href=""> Shop </a>
         </li>
-        <li class="text-4xl">.</li>
+        <li>.</li>
         <li>
           <a href=""> Category </a>
         </li>
-        <li class="text-4xl align-middle">.</li>
+        <li>.</li>
         <li>
           <a href=""> Contact </a>
         </li>
       </ul>
 
-      <span class="flex gap-x-2.5">
+      <a class="flex gap-x-2.5 text-xl font-bold" href="">
         <img src="./assets/images/Vector.svg" alt="" />
         ERIKO
-      </span>
+      </a>
       <span class="flex gap-x-9">
-        <img src="./assets/images/navBar-searchicon.svg" alt="searchicon" />
-        <img src="./assets/images/navBar-searchicon.svg" alt="storeicon" />
-        <img src="./assets/images/navBar-profileicon.svg" alt="profileicon" />
+        <a href=""
+          ><img src="./assets/images/navBar-searchicon.svg" alt="searchicon"
+        /></a>
+        <a href=""
+          ><img src="./assets/images/navBar-storeicon.svg" alt="storeicon"
+        /></a>
+        <a href=""
+          ><img src="./assets/images/navBar-profileicon.svg" alt="profileicon"
+        /></a>
       </span>
     </nav>
 
     <!-- header -->
     <header class="flex items-center justify-center gap-x-36">
-      <span class="flex flex-col">
+      <span class="flex flex-col items-start">
         <span class="relative mb-16">
           <h1 class="text-7xl z-10">
             Discover <br />
@@ -68,14 +76,17 @@
             <img src="./assets/images/header-paypal.svg" alt="paypal" />
           </span>
         </span>
-        <span class="flex flex-col text-2xl gap-y-3">
+        <a
+          class="flex flex-col text-2xl gap-y-3 border-2 rounded-xl border-stone-800 items-center justify-center pb-2 mt-16"
+          href=""
+        >
           <img
             src="./assets/images/header-shoe.png "
             alt="shoe"
             class="max-w-[286px]"
           />
           Nike air shoes
-        </span>
+        </a>
       </span>
       <span class="relative">
         <img
@@ -83,11 +94,13 @@
           alt=""
           class="max-w-[617px] max-h-[894px]"
         />
-        <img
-          src="./assets/images/header-watchvideo.svg"
-          alt=""
-          class="absolute top-[115px] -right-[50px]"
-        />
+        <a href="">
+          <img
+            src="./assets/images/header-watchvideo.svg"
+            alt=""
+            class="absolute top-[115px] -right-[50px] bg-gradient-to-r from-violet-700 to-pink-500 p-2 rounded-full text-white"
+          />
+        </a>
       </span>
       <span class="flex flex-col gap-y-6">
         <img
@@ -101,12 +114,13 @@
           <li>100% accurate Original sunglasses</li>
           <li>Most Trendy Sunglasses</li>
         </ul>
-        <span
+        <a
           class="flex gap-x-2.5 text-orange-500 border-b-2 border-orange-600 max-w-[188px] mt-5"
+          href="#"
         >
           Show all men collection
           <img src="./assets/images/header-arrowicon.svg" alt="" />
-        </span>
+        </a>
       </span>
     </header>
 
@@ -118,62 +132,70 @@
       >
         <div class="text-5xl mb-10 font-medium">New collection of us</div>
         <div class="flex justify-center items-center gap-9 flex-wrap">
-          <div
-            class="w-[574px] bg-slate-300 h-[307px] flex justify-between p-6 pb-0 items-center text-start rounded-xl"
-          >
-            <span class="flex flex-col gap-y-3">
-              <span class="text-3xl font-medium">
-                Stylish Round <br />
-                Colorfull Glass
+          <a href="">
+            <div
+              class="w-[574px] bg-slate-300 h-[307px] flex justify-between p-6 pb-0 items-center text-start rounded-xl"
+            >
+              <span class="flex flex-col gap-y-3">
+                <span class="text-3xl font-medium">
+                  Stylish Round <br />
+                  Colorfull Glass
+                </span>
+                <span class="text-xl text-slate-500"> $34.55 </span>
               </span>
-              <span class="text-xl text-slate-500"> $34.55 </span>
-            </span>
-            <img src="./assets/images/main-person1.png" alt="person" />
-          </div>
-          <div
-            class="w-[574px] bg-slate-300 h-[307px] flex justify-between p-6 pb-0 items-center text-start rounded-xl"
-          >
-            <span class="flex flex-col gap-y-3 w-[265px]">
-              <span class="text-3xl font-medium">
-                Elegant Jack <br />
-                Sparow Hat
+              <img src="./assets/images/main-person1.png" alt="person" />
+            </div>
+          </a>
+          <a href=""
+            ><div
+              class="w-[574px] bg-slate-300 h-[307px] flex justify-between p-6 pb-0 items-center text-start rounded-xl"
+            >
+              <span class="flex flex-col gap-y-3 w-[265px]">
+                <span class="text-3xl font-medium">
+                  Elegant Jack <br />
+                  Sparow Hat
+                </span>
+                <span class="text-slate-500 text-base">
+                  Free shipping & returns on Men's Black Hats at Erriko.com
+                </span>
               </span>
-              <span class="text-slate-500 text-base">
-                Free shipping & returns on Men's Black Hats at Erriko.com
+              <img src="./assets/images/main-person2.png" alt="person" />
+            </div>
+          </a>
+          <a href="">
+            <div
+              class="w-[574px] bg-slate-300 h-[307px] flex justify-between p-6 pb-0 items-center text-start rounded-xl"
+            >
+              <span class="flex flex-col gap-y-3">
+                <span class="text-3xl font-medium">
+                  Couple on <br />
+                  The Go
+                </span>
+                <span class="text-xl text-slate-600"> 45% Off </span>
+                <span class="text-xl text-slate-500">
+                  Offer will be end soon
+                </span>
               </span>
-            </span>
-            <img src="./assets/images/main-person2.png" alt="person" />
-          </div>
-          <div
-            class="w-[574px] bg-slate-300 h-[307px] flex justify-between p-6 pb-0 items-center text-start rounded-xl"
-          >
-            <span class="flex flex-col gap-y-3">
-              <span class="text-3xl font-medium">
-                Couple on <br />
-                The Go
+              <img src="./assets/images/main-person3.png" alt="person" />
+            </div>
+          </a>
+          <a href=""
+            ><div
+              class="w-[574px] bg-slate-300 h-[307px] flex justify-between p-6 pb-0 items-center text-start rounded-xl"
+            >
+              <span class="flex flex-col gap-y-3">
+                <span class="text-3xl font-medium">
+                  Trendy <br />
+                  Women Hill
+                </span>
+                <span class="text-xl text-slate-500 text-base">
+                  Free shipping & returns
+                </span>
+                <span class="text-xl text-slate-600"> $34.55 </span>
               </span>
-              <span class="text-xl text-slate-600"> 45% Off </span>
-              <span class="text-xl text-slate-500">
-                Offer will be end soon
-              </span>
-            </span>
-            <img src="./assets/images/main-person3.png" alt="person" />
-          </div>
-          <div
-            class="w-[574px] bg-slate-300 h-[307px] flex justify-between p-6 pb-0 items-center text-start rounded-xl"
-          >
-            <span class="flex flex-col gap-y-3">
-              <span class="text-3xl font-medium">
-                Trendy <br />
-                Women Hill
-              </span>
-              <span class="text-xl text-slate-500 text-base">
-                Free shipping & returns
-              </span>
-              <span class="text-xl text-slate-600"> $34.55 </span>
-            </span>
-            <img src="./assets/images/main-person4.png" alt="person" />
-          </div>
+              <img src="./assets/images/main-person4.png" alt="person" />
+            </div>
+          </a>
         </div>
       </section>
 
@@ -183,35 +205,53 @@
       >
         <div class="text-5xl mb-10">Our category</div>
         <ul class="flex justify-center">
-          <li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
-            Jacket
-          </li>
-          <li
-            class="text-lg py-1 px-6 bg-teal-500 text-white rounded-[55px] mx-2"
+          <a href=""
+            ><li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
+              Jacket
+            </li></a
           >
-            T-Shirt
-          </li>
-          <li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
-            Shirt
-          </li>
-          <li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
-            Shoes
-          </li>
-          <li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
-            Jacket
-          </li>
-          <li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
-            Cap
-          </li>
-          <li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
-            Sunglass
-          </li>
-          <li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
-            Watch
-          </li>
-          <li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
-            Shirt
-          </li>
+          <a href=""
+            ><li
+              class="text-lg py-1 px-6 bg-teal-500 text-white rounded-[55px] mx-2"
+            >
+              T-Shirt
+            </li></a
+          >
+          <a href=""
+            ><li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
+              Shirt
+            </li></a
+          >
+          <a href=""
+            ><li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
+              Shoes
+            </li></a
+          >
+          <a href=""
+            ><li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
+              Jacket
+            </li></a
+          >
+          <a href=""
+            ><li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
+              Cap
+            </li></a
+          >
+          <a href=""
+            ><li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
+              Sunglass
+            </li></a
+          >
+          <a href=""
+            ><li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
+              Watch
+            </li></a
+          >
+          <a href=""
+            ><li class="text-lg py-1 px-6 bg-slate-300 rounded-[55px] mx-2">
+              Shirt
+            </li></a
+          >
         </ul>
         <div class="flex flex-wrap mt-5 justify-center gap-y-5 gap-x-10">
           <div
@@ -383,14 +423,14 @@
     <footer class="bg-zinc-800 flex flex-col px-32 pt-20 text-white">
       <div class="flex justify-between border-b-2 pb-7 items-start">
         <div class="flex flex-col justify-between gap-y-9">
-          <span class="flex gap-4 text-3xl">
+          <a class="flex gap-4 text-3xl" href="#">
             <img
               src="./assets/images/Vector-white.svg"
               alt="logo"
               class="text-white"
             />
             ERIKO
-          </span>
+          </a>
           <span class="text-base max-w-[316px]">
             Nor again is there anyone who loves or pursues or desires to obtain
             pain of itself.
@@ -424,18 +464,18 @@
         </div>
         <ul class="text-base flex flex-col items-start gap-5">
           <li class="text-2xl mb-3">About</li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Features</a></li>
-          <li><a href="">FAQs</a></li>
-          <li><a href="">Reviews</a></li>
-          <li><a href="">Stories</a></li>
+          <li class="underline underline-offset-8"><a href="">Home</a></li>
+          <li class="underline underline-offset-8"><a href="">Features</a></li>
+          <li class="underline underline-offset-8"><a href="">FAQs</a></li>
+          <li class="underline underline-offset-8"><a href="">Reviews</a></li>
+          <li class="underline underline-offset-8"><a href="">Stories</a></li>
         </ul>
         <ul class="text-base flex flex-col items-start gap-5">
           <li class="text-2xl mb-3">Privacy</li>
-          <li><a href="">Privacy</a></li>
-          <li><a href="">Policy</a></li>
-          <li><a href="">Payment</a></li>
-          <li><a href="">Terms</a></li>
+          <li class="underline underline-offset-8"><a href="">Privacy</a></li>
+          <li class="underline underline-offset-8"><a href="">Policy</a></li>
+          <li class="underline underline-offset-8"><a href="">Payment</a></li>
+          <li class="underline underline-offset-8"><a href="">Terms</a></li>
         </ul>
 
         <form class="flex flex-col items-start gap-5" action="#">
@@ -468,10 +508,10 @@
         <span> Copyright 2023 © Eriko.com </span>
         <span class="flex justify-between gap-5">
           <span>
-            <a href="">Contact Us</a>
+            <a href="" class="underline underline-offset-8">Contact Us</a>
           </span>
           <span>
-            <a href="">Terms</a>
+            <a href="" class="underline underline-offset-8">Terms</a>
           </span>
           <span> All rights reserved. </span>
         </span>
