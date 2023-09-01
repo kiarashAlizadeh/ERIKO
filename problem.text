@@ -5,3 +5,16 @@
 رنگ بخش کتگوری درست شود
 رنگ دکمه بخش کتگوری درست شود
 رنگ فوتر و دکمه هاش درست شود
+اضافه کردن منوی زبان انگلیسی در نو بار
+ساختن سایت فارسی
+
+<!-- category -->
+      <section
+        class="bg-gradient-to-r from-pink-300 to-pink-600 mx-28 mb-24 mt-5 rounded-3xl text-center p-14"
+      >
+
+
+      <!-- New collection -->
+      <section
+        class="bg-gradient-to-r from-red-500 to-red-800 mx-28 mb-24 rounded-3xl text-center mt-32 p-14 "
+      >
